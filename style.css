@@ -12,19 +12,34 @@ body {
      
 }
 
-.theoryof-inflations {
-  background-image: url(images/inflation-945.png);    
-}
+
+.topnav {
+    background-color: rgb(243, 239, 239);
+    overflow: hidden;
+  }
 
 .topnav a {
-    /* float: left; */
-    color: black;
+    /* float: right; */
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    align-items: center;
-    
+  }
+
+  .svg {
+    /* margin-left: 50%;   */
+    margin-left: 40%;
+  }
+  /* .sub-log {
+    float: right;    
+  } */
+
+  .advert {
+   background-color: antiquewhite;
+   height: 200px;  
+   text-align: center; 
+   padding-top: 100px; 
   }
 
   .nyt {
@@ -33,12 +48,12 @@ body {
   }
 
   .sub {
-    margin-left: 300px; 
+    margin-left: 78.5%; 
     background-color: rgba(11, 125, 192, 0.37);
     border: none;
     color: white;
-    padding: 11px 25px;
-    text-align: center;
+    padding: 11px 10px;
+    
     text-decoration: none;
     display: inline-block;
     font-size: 10px;   
@@ -65,8 +80,14 @@ body {
     transition: 0.4s;
   }
 
+  iframe {
+    align-items: center;
+    margin-left: 25%; 
+    margin-top: 15%;   
+  }
+
 .times {
-  margin-left: 100px; 
+  /* margin-left: 100%;  */
   
 }
 .btn {
@@ -114,22 +135,30 @@ body {
         
 }
 
-.flex-container {
+
+.theoryof-inflations {
+    /* background-image: url(images/inflation-945.png);     */
+  }
+
+.container {
     display: flex;
-    width: 200px;
-    height: 1000;
-    margin: 50px;
-    border: mediumaquamarine solid 2px;
+    border: solid 1px burlywood;
+    border-right: burlywood solid 1px;
+    flex-direction: row;
+    
+    
+    
     
     
 }    
     
 .flex-box1 {
-    display: flex;
+    
     width: 200px;
     height: 400;
     margin: 50px;
-    border: mediumaquamarine solid 2px;
+    padding: 10px;
+    /* border: mediumaquamarine solid 2px; */
     
     
 }
@@ -137,55 +166,56 @@ body {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px; 
-    flex-flow: row;     
+    /* border: mediumaquamarine solid 2px;  */
+        
 }
 
 .flex-box3 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .flex-box4 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .flex-box5 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .flex-box6 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .flex-box7 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .flex-box8 {
     width: 200px;
     height: 300;
     margin: 50px;
-    border: mediumaquamarine solid 2px;      
+    /* border: mediumaquamarine solid 2px;       */
 }
 
 .space {
   margin-right: 50px;
   font-size: larger;
+  float: left;
 }
 
 .flex-box-new-york {
@@ -210,7 +240,24 @@ body {
   text-align: center;    
 }
 
-.icon-container {
+figcaption {
+    text-align: center;
+    font-size: small;
+    margin-right: 10%;
+}
+
+p {
+  margin:0;
+  padding:0;
+  /* font-size:60px; */
+}
+div {
+  margin:0;
+  padding:0;
+  
+}
+
+/* .icon-container {
  list-style: none;
  margin: 0;
  padding: 0;
@@ -218,12 +265,12 @@ body {
  margin: 0;  
  list-style-position: inside; 
  display: -moz-inline-box;
-}
+} */
 
 
-.ul {
+/* .ul {
   list-style: none; 
   margin: 0;  
   list-style-position: inside; 
   display: -moz-inline-box;
-}
+} */
