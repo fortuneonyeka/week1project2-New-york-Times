@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;  
+  border: 1px wheat solid; 
+  margin: 20px; 
+  
+}
+
+.times {
+  margin-left: 50%;    
+}
+
+.space {
+    
+}
+
