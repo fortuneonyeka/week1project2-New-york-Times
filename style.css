@@ -1,15 +1,229 @@
-.header-container {
+/* .flex-container {
   display: flex;  
-  border: 1px wheat solid; 
-  margin: 20px; 
   
+  margin: 50px; 
+  height: 30px;
+  width: 3000px;
+  justify-content: center;
+  justify-content: space-between;
+} */
+
+body {
+     
 }
 
+.theoryof-inflations {
+  background-image: url(images/inflation-945.png);    
+}
+
+.topnav a {
+    /* float: left; */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    
+  }
+
+  .nyt {
+   margin-left: 400px; 
+   text-align: right;   
+  }
+
+  .sub {
+    margin-left: 300px; 
+    background-color: rgba(11, 125, 192, 0.37);
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;   
+  }
+
+.nav-border1 {
+    border: rosybrown 1px solid; 
+     
+}
+
+.menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+      
+}
+
+.bar1 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
 .times {
-  margin-left: 50%;    
+  margin-left: 100px; 
+  
+}
+.btn {
+    background-color: rgba(11, 125, 192, 0.37);
+    border: none;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;      
+}
+.jumbo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+      
+}
+
+.jumbo-fig {
+    
+    width: 60%;
+    text-align: justify;
+    font-style: italic;
+    font-size: large;
+    text-indent: 0;
+    margin-left: 10%;
+    padding: 0.5em;
+}
+
+.content-wrapper {
+  margin: 20%; 
+  font-size: larger;  
+}
+
+/* .p {
+    margin: 20%; 
+    font-size: larger;       
+} */
+
+.content-paragraph {
+    margin: 20%; 
+    font-size: larger;  
+        
+}
+
+.flex-container {
+    display: flex;
+    width: 200px;
+    height: 1000;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;
+    
+    
+}    
+    
+.flex-box1 {
+    display: flex;
+    width: 200px;
+    height: 400;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;
+    
+    
+}
+.flex-box2 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px; 
+    flex-flow: row;     
+}
+
+.flex-box3 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
+}
+
+.flex-box4 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
+}
+
+.flex-box5 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
+}
+
+.flex-box6 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
+}
+
+.flex-box7 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
+}
+
+.flex-box8 {
+    width: 200px;
+    height: 300;
+    margin: 50px;
+    border: mediumaquamarine solid 2px;      
 }
 
 .space {
-    
+  margin-right: 50px;
+  font-size: larger;
 }
 
+.flex-box-new-york {
+  margin-right: 20px;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-style:oblique;  
+}
+
+.flex-button {
+  /* margin-left: 200%;     */
+  font-size: larger;
+  
+}
+
+.search {
+  margin-left: 5pc;
+  margin-bottom: 10pc;    
+}
+
+.ripple {
+  text-align: center;    
+}
+
+.icon-container {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+
+ margin: 0;  
+ list-style-position: inside; 
+ display: -moz-inline-box;
+}
+
+
+.ul {
+  list-style: none; 
+  margin: 0;  
+  list-style-position: inside; 
+  display: -moz-inline-box;
+}
