@@ -10,13 +10,13 @@ Additional description about the project and its features.
 
 ## Built With
 
--  Major languages
--  Frameworks
--  Technologies used
+- Major languages
+- Frameworks
+- Technologies used
 
 ## Live Demo
 
-[Live Demo Link](https://fortuneonyeka.github.io/New-York-Times-/.)
+[Live Demo Link](https://fortuneonyeka.github.io/week1project2-New-york-Times/)
 
 ## Getting Started
 
@@ -41,15 +41,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
--  GitHub: [@githubhandle](https://github.com/githubhandle)
--  Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
--  LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
--  GitHub: [@githubhandle](https://github.com/githubhandle)
--  Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
--  LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -63,9 +63,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--  Hat tip to anyone whose code was used
--  Inspiration
--  etc
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
