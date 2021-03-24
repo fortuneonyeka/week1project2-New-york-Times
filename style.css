@@ -1,40 +1,47 @@
-/* .flex-container {
-  display: flex;  
-  
-  margin: 50px; 
-  height: 30px;
-  width: 3000px;
-  justify-content: center;
-  justify-content: space-between;
-} */
-
-body {
-     
+*{
+  margin: 0;
+  padding: 0;
 }
 
+.parent-nav {
+  display: flex;
+  justify-content: space-between;  
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  
 
-.topnav {
-    background-color: rgb(243, 239, 239);
-    overflow: hidden;
-  }
+}
 
-.topnav a {
-    /* float: right; */
-    
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.nav-border1 {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
 
-  .svg {
-    /* margin-left: 50%;   */
-    margin-left: 40%;
-  }
-  /* .sub-log {
-    float: right;    
-  } */
+.icon-container {
+  display: flex;
+  border: 1px solid red;
+  margin-top: 150px 0;
+  justify-content: center;
+}
 
+.ripple {
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin: 50px 0 50px 350px;
+  border: 1px solid red;
+  width: 600px;
+  
+}
+
+.icon-cont {
+  display: flex;
+  margin-left: -300px;
+  justify-content: space-between;
+  width: 20%;
+  
+}
   .advert {
    background-color: antiquewhite;
    height: 200px;  
@@ -42,35 +49,8 @@ body {
    padding-top: 100px; 
   }
 
-  .nyt {
-   margin-left: 400px; 
-   text-align: right;   
-  }
+  
 
-  .sub {
-    margin-left: 78.5%; 
-    background-color: rgba(11, 125, 192, 0.37);
-    border: none;
-    color: white;
-    padding: 11px 10px;
-    
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;   
-  }
-
-.nav-border1 {
-    border: rosybrown 1px solid; 
-     
-}
-
-.menu-icon {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-      
-}
 
 .bar1 {
     width: 35px;
@@ -86,20 +66,6 @@ body {
     margin-top: 15%;   
   }
 
-.times {
-  /* margin-left: 100%;  */
-  
-}
-.btn {
-    background-color: rgba(11, 125, 192, 0.37);
-    border: none;
-    color: white;
-    padding: 11px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;      
-}
 .jumbo {
     display: block;
     margin-left: auto;
@@ -137,7 +103,8 @@ body {
 
 
 .theoryof-inflations {
-    /* background-image: url(images/inflation-945.png);     */
+    background-image: url(images/inflation-945.png);
+    z-index: -1;    
   }
 
 .container {
@@ -212,11 +179,7 @@ body {
     /* border: mediumaquamarine solid 2px;       */
 }
 
-.space {
-  margin-right: 50px;
-  font-size: larger;
-  float: left;
-}
+
 
 .flex-box-new-york {
   margin-right: 20px;  
@@ -224,9 +187,9 @@ body {
   font-size: larger;
   font-style:oblique;  
 }
-
+/* 
 .flex-button {
-  /* margin-left: 200%;     */
+  margin-left: 200%;    
   font-size: larger;
   
 }
@@ -234,7 +197,7 @@ body {
 .search {
   margin-left: 5pc;
   margin-bottom: 10pc;    
-}
+} */
 
 .ripple {
   text-align: center;    
@@ -246,31 +209,16 @@ figcaption {
     margin-right: 10%;
 }
 
-p {
-  margin:0;
-  padding:0;
-  /* font-size:60px; */
+.footer-parent {
+  display: flex;
+  justify-content: space-around;
 }
-div {
-  margin:0;
-  padding:0;
-  
+.footer-parent ul li {
+  list-style: none;
+
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
 }
 
-/* .icon-container {
- list-style: none;
- margin: 0;
- padding: 0;
-
- margin: 0;  
- list-style-position: inside; 
- display: -moz-inline-box;
-} */
-
-
-/* .ul {
-  list-style: none; 
-  margin: 0;  
-  list-style-position: inside; 
-  display: -moz-inline-box;
-} */
