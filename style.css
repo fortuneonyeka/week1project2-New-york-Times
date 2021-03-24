@@ -28,7 +28,7 @@
 
 .parent-nav {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
@@ -41,7 +41,7 @@
 
 .icon-container {
   display: flex;
-  margin-top: 150px 0;
+  margin-top: 150px;
   justify-content: center;
 }
 
@@ -49,7 +49,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
   margin: 0px 540px 20px;
-  /* margin: 50px auto; */
   width: 600px;
   color: #121212;
 }
@@ -71,28 +70,26 @@
   margin-left: 50%;
   text-align: center;
 }
-  .advert {
-   background-color: antiquewhite;
-   height: 200px;
-   text-align: center;
-   padding-top: 100px;
+
+.advert {
+  background-color: antiquewhite;
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
 }
 
-  
-
-
 .bar1 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 5px 0;
-    transition: 0.4s;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
 }
 
   iframe {
-    align-items: center;
-    margin-left: 25%;
-    margin-top: 15%;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 15%;
 }
 
 .if-fig {
@@ -103,7 +100,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%
+  width: 80%;
 }
 
 .jumbo-fig {
@@ -117,16 +114,15 @@
 }
 
 .content-wrapper {
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 400px;
   margin-right: 500px;
   font-size: larger;
-  
 }
 
 .content-paragraph {
-  margin: 20%; 
+  margin: 20%;
   font-size: larger;
 }
 
@@ -142,8 +138,7 @@
 
 .row1,
 .row2 {
-  position: absolute;
-  
+  position: absolute; 
 }
 
 .row1 {
@@ -163,11 +158,7 @@
   margin-right: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: larger;
-  font-style:oblique;
-}
-
-.ripple {
-  text-align: center; 
+  font-style: oblique;
 }
 
 figcaption {
@@ -201,17 +192,17 @@ figcaption {
 }
 
 button {
-  background-color:rgba(42, 42, 119, 0.74);
+  background-color: rgba(42, 42, 119, 0.74);
 }
 
 .version {
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 500px;
   margin-right: 500px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 12px;
-  color: #666666;
+  color: #666;
 }
 
 .read {
@@ -226,8 +217,7 @@ button {
 .footer-parent {
   display: flex;
   justify-content: space-around;
-  color:#333333;
-  
+  color:#333;
 }
 
 .footer-parent ul li {
@@ -239,11 +229,10 @@ button {
 .footer-top {
   display: flex;
   justify-content: space-between;
-  color: #567B95;
-  font-size: 12PX;
+  color: #567b95;
+  font-size: 12px;
 }
 
 .footer-sub {
   border-left: oldlace 1px;
 }
-
