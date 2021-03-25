@@ -39,7 +39,7 @@ a:hover {
   font-size: 14px;
 }
 
- .flexx {
+.flexx {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,6 @@ a:hover {
   justify-content: space-around;
 
 }
-
 .flexx .righty {
   width: 16%;
   display: flex;
@@ -340,7 +339,7 @@ button {
   color: #333;
   width: 1220px;
   margin: 20px auto;
- border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .footer-parent h2 {
