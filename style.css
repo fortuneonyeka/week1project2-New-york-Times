@@ -6,8 +6,9 @@
 a {
   text-decoration: none;
 }
+
 a:visited {
-	  color: #000;
+  color: #000;
 }
 
 a:hover {
@@ -28,6 +29,10 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+}
+
+.footer-bottom a {
+  font-size: 11px;
 }
 
 .footer-parent ul li a {
@@ -52,10 +57,6 @@ a:hover {
 
 }
 
-.footer-bottom a {
-  font-size: 11px;
-}
-
 .flexx .righty {
   width: 16%;
   display: flex;
@@ -77,7 +78,7 @@ a:hover {
 
 .parent-nav {
   display: flex;
-  ustify-content: space-between;
+  justify-content: space-between;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
@@ -88,13 +89,11 @@ a:hover {
   width: 20%;
 }
 
-
 .showcase-text-cont {
   margin-top: 80px;
   margin-bottom: 40px;
   margin-left: 400px;
   width: 600px;
-
 }
 
 .ripple {
@@ -108,7 +107,6 @@ a:hover {
   width: 600px;
   height: 1px;
   background-color: #ddd;
-
 }
 
 .icon-cont {
@@ -350,13 +348,10 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
 }
+
 .sub-subscribe {
   font-weight: bolder;
   margin-bottom: 20px;
-}
-
-.email-ed {
-  border-bottom: solid 10px rgb(226, 226, 226) 1px;
 }
 
 .footer-parent ul li {
