@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+  <div class="allform">
     <form action="#">
-        <label for="username">Username</label>
-        <input type="text" name="name" id="" placeholder="Enter username" required  maxlength="20">
-        <br><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Enter your Email here" required maxlength="20">
+        <label for="username">Username:</label>
+        <input type="text" name="name" id="username" placeholder="Enter username" required  maxlength="20">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email here" required maxlength="20">
         <br><br><br>
-        <label for="textarea">Comment</label>
+        <label for="textarea" >Comment</label>
         <br>
-          <textarea name="comment" id="" cols="30" rows="10" placeholder="Type your comment here…" required maxlength="250"></textarea>
+          <textarea name="comment" id="area" cols="30" rows="10" placeholder="Type your comment here…" required maxlength="250"></textarea>
           <br><br>
           <label for="">What is your overall opinion about this article:
            <label for="radio"> 
@@ -32,7 +36,9 @@
                    <br><br><br>
                        <input type="checkbox" name="sub" value="subscribe" required>What is your overall opinion about this article
                        <br></br>
-                       <input type="button" name="button" value="Submit">
+                       <input type="button" name="button" value="Submit" class="btn">
+                      </div>
+                       
                    
         
    
