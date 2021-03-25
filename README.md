@@ -2,23 +2,23 @@
 
 
 # Project Name
-Positioning and floating elements project
+New York Times Article Clone
 
 > One paragraph statement about the project.
 
-This week's project is titled positiing and floating elements.
-Its about cloning New York Times Article page.
-This project has helped me gain more insight, practice flex and float respectively
+Positioning And Floating Element
 
-![screenshot](./app_screenshot.png)
+![screenshot](../images/Newyorktimes.png)
 
 Additional description about the project and its features.
 
-This project is only build with html and css leveraging mostly on flex,fload and grid.
+This project is built with html and css only, leveraging mostly on flex,fload and grid for positioning.
 
 
 ## Built With 
-Html and css
+This project is built with:
+- HTML 
+-CSS
 
 ## Live Demo
 
@@ -28,9 +28,13 @@ Html and css
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
+Copy repository link from github,open terminal,type in clone and paste the link of repository and hit enter
+
 ### Prerequisites
-text editor and browser
-## Authors
+-Terminal
+-Text editor
+-Browser
+## Author
 
 👤 **Author1**
 
@@ -56,5 +60,5 @@ My mentor Uloko Francis has been very helping.he has helped me get used to micro
 
 ## 📝 License
 
-This project is [MIT](mit-license.org) licensed.
+This project is [MIT](https://mit-license.org) licensed.
 
