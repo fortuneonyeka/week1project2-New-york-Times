@@ -1,26 +1,26 @@
 * {
-	margin: 0;
+  margin: 0;
 	padding: 0;
 }
 
 a {
-	text-decoration: none;
+	 text-decoration: none;
 }
 a:visited {
-	color: #000;
+	 color: #000;
 }
 
 a:hover {
-	color: #000;
-	text-decoration: underline;
+ 	color: #000;
+	 text-decoration: underline;
 }
 
 .active {
-	color: black;
-	text-decoration: none;
-	font-weight: bolder;
-	font-size: 14.25px;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ 	color: black;
+ 	text-decoration: none;
+ 	font-weight: bolder;
+ 	font-size: 14.25px;
+ 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .flex {
@@ -31,9 +31,9 @@ a:hover {
 }
 
  .flexx {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
   border-bottom: 1px solid #ddd;
   position: sticky;
   top: 0;
@@ -55,10 +55,10 @@ a:hover {
 }
 
 .flexx .righty a {
-	background-color: #567b95;
-	color: white;
-	border-radius: 4px;
-	padding: 0 12px;
+ 	background-color: #567b95;
+ 	color: white;
+ 	border-radius: 4px;
+ 	padding: 0 12px;
   height: 32px;
   text-align: center;
 }
@@ -97,7 +97,6 @@ a:hover {
 }
 
 .showcase-text-cont .divider {
-  /* border: 1px #ddd solid; */
   width: 600px;
   height: 1px;
   background-color: #ddd;
@@ -112,7 +111,7 @@ a:hover {
 }
 
 .bydenis {
-	margin-left: 20%;
+	margin-left: 35%;
 }
 
 #free-articles {
@@ -154,7 +153,7 @@ iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 55%;
 }
 
 .jumbo-fig {
@@ -163,7 +162,7 @@ iframe {
 	font-style: italic;
 	font-size: large;
 	text-indent: 0;
-	margin-left: 10%;
+	margin-left: 22%;
 	padding: 0.5em;
 }
 
@@ -343,6 +342,14 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
 }
+.sub-subscribe {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.email-ed {
+  border-bottom: solid 10px rgb(226, 226, 226) 1px;
+}
 
 .footer-parent ul li {
 	list-style: none;
@@ -366,7 +373,8 @@ button {
 }
 
 .footer-sub {
-	border-left: oldlace 1px;
+	border-left: solid rgb(226, 226, 226) 1px;
+  padding: 8px;
 }
 
 .footer-bottom {
