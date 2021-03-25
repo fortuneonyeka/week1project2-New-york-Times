@@ -1,26 +1,26 @@
 * {
   margin: 0;
-	padding: 0;
+  padding: 0;
 }
 
 a {
-	 text-decoration: none;
+  text-decoration: none;
 }
 a:visited {
-	 color: #000;
+	  color: #000;
 }
 
 a:hover {
- 	color: #000;
-	 text-decoration: underline;
+  color: #000;
+  text-decoration: underline;
 }
 
 .active {
- 	color: black;
- 	text-decoration: none;
- 	font-weight: bolder;
- 	font-size: 14.25px;
- 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 14.25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .flex {
@@ -30,10 +30,14 @@ a:hover {
   gap: 10px;
 }
 
+.footer-parent ul li a {
+  font-size: 14px;
+}
+
  .flexx {
- 	display: flex;
- 	justify-content: space-between;
- 	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #ddd;
   position: sticky;
   top: 0;
@@ -59,10 +63,10 @@ a:hover {
 }
 
 .flexx .righty a {
- 	background-color: #567b95;
- 	color: white;
- 	border-radius: 4px;
- 	padding: 0 12px;
+  background-color: #567b95;
+  color: white;
+  border-radius: 4px;
+  padding: 0 12px;
   height: 32px;
   text-align: center;
 }
@@ -72,31 +76,31 @@ a:hover {
 }
 
 .parent-nav {
- 	display: flex;
- 	justify-content: space-between;
- 	border-top: 1px solid #ddd;
- 	border-bottom: 1px solid #ddd;
+  display: flex;
+  ustify-content: space-between;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav-border1 {
- 	display: flex;
- 	justify-content: space-between;
- 	width: 20%;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
 }
 
 
 .showcase-text-cont {
   margin-top: 80px;
   margin-bottom: 40px;
- 	margin-left: 400px;
- 	width: 600px;
+  margin-left: 400px;
+  width: 600px;
 
 }
 
 .ripple {
- 	font-family: Georgia, "Times New Roman", Times, serif;
- 	font-size: 40px;
- 	color: #121212;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #121212;
   margin-bottom: 20px;
 }
 
@@ -109,219 +113,219 @@ a:hover {
 
 .icon-cont {
   margin-top: 20px;
- 	display: flex;
- 	justify-content: space-between;
- 	width: 285px;
+  display: flex;
+  justify-content: space-between;
+  width: 285px;
 }
 
 .bydenis {
- 	margin-left: 35%;
+  margin-left: 35%;
 }
 
 #free-articles {
- 	margin-top: 20px;
- 	margin-bottom: 50px;
- 	margin-left: 50%;
- 	text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50%;
+  text-align: center;
 }
 
 .advert {
- 	background-color: antiquewhite;
- 	height: 200px;
- 	text-align: center;
- 	padding-top: 100px;
+  background-color: antiquewhite;
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .bar1 {
- 	width: 35px;
- 	height: 5px;
- 	background-color: #333;
-	 margin: 5px 0;
- 	transition: 0.4s;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
 }
 
 iframe {
- 	align-items: center;
- 	margin-left: 25%;
- 	margin-top: 60px;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 60px;
 }
 
 .if-fig {
- 	margin-left: 25%;
- 	font-size: 14px;
- 	color: #666;
- 	width: 560px;
+  margin-left: 25%;
+  font-size: 14px;
+  color: #666;
+  width: 560px;
 }
 
 .jumbo {
- 	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
- 	width: 55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
 }
 
 .jumbo-fig {
- 	width: 60%;
- 	text-align: justify;
- 	font-style: italic;
- 	font-size: large;
- 	text-indent: 0;
- 	margin-left: 22%;
- 	padding: 0.5em;
+  width: 60%;
+  text-align: justify;
+  font-style: italic;
+  font-size: large;
+  text-indent: 0;
+  margin-left: 22%;
+  padding: 0.5em;
 }
 
 .content-wrapper {
- 	margin-top: 20px;
- 	margin-bottom: 20px;
- 	margin-left: 400px;
- 	margin-right: 500px;
- 	font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 500px;
+  font-size: larger;
 }
 
 .content-paragraph {
- 	margin: 20%;
- 	font-size: larger;
+  margin: 20%;
+  font-size: larger;
 }
 
 .inflation-cont {
- 	margin-left: 342.5px;
- 	width: 945px;
+  margin-left: 342.5px;
+  width: 945px;
 }
 
 .inflation-cont h2 {
-	font-size: 20px;
- 	font-family: Georgia, "Times New Roman", Times, serif;
- 	margin-bottom: 10px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
 }
 
 .inflation-cont p {
- 	font-size: 14px;
- 	color: #666;
+  font-size: 14px;
+  color: #666;
 }
 
 .theoryof-inflations {
- 	background-image: url(images/inflation-945.png);
- 	position: relative;
- 	width: 900px;
- 	height: 1000px;
- 	background-repeat: no-repeat;
- 	background-position: center;
- 	background-size: contain;
- 	margin: 0 auto;
+  background-image: url(images/inflation-945.png);
+  position: relative;
+  width: 900px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .theoryof-inflations p {
- 	font-size: 13px;
+  font-size: 13px;
 }
 
 .row1 {
- 	position: absolute;
- 	top: 370px;
+  position: absolute;
+  top: 370px;
 }
 
 .row2 {
- 	position: absolute;
- 	top: 630px;
+  position: absolute;
+  top: 630px;
 }
 
 .by-larry {
- 	margin-left: 342.5px;
- 	margin-bottom: 50px;
- 	width: 700px;
+  margin-left: 342.5px;
+  margin-bottom: 50px;
+  width: 700px;
 }
 
 .by-larry .line {
- 	width: 60px;
- 	height: 1px;
- 	background-color: black;
- 	margin-bottom: 24px;
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 24px;
 }
 
 .by-larry > p {
- 	font-size: 14px;
- 	font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .by-larry .cont {
- 	margin-top: 50px;
- 	margin-left: 90px;
+  margin-top: 50px;
+  margin-left: 90px;
 }
 
 .by-larry .cont > p {
- 	font-size: 20px;
- 	font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .flex-box-new-york {
- 	margin: 20px;
- 	font-family: Georgia, "Times New Roman", Times, serif;
- 	font-size: larger;
- 	font-style: oblique;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-style: oblique;
 }
 
 figcaption {
- 	text-align: center;
- 	font-size: small;
- 	margin-right: 10%;
+  text-align: center;
+  font-size: small;
+  margin-right: 10%;
 }
 
 .cosmo {
- 	width: 600px;
- 	height: 400px;
- 	margin-left: 400px;
+  width: 600px;
+  height: 400px;
+  margin-left: 400px;
 }
 
 .span-fig {
- 	font-family: Georgia, "Times New Roman", Times, serif;
- 	font-size: 8px;
- 	margin-left: 400px;
- 	color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 8px;
+  margin-left: 400px;
+  color: #666;
 }
 
 .cosmo-fig {
- 	margin-left: 400px;
- 	width: 600px;
- 	color: #666;
- 	font-family: Georgia, "Times New Roman", Times, serif;
- 	font-size: 15px;
+  margin-left: 400px;
+  width: 600px;
+  color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
 }
 
 .special {
- 	margin-top: 20px;
- 	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 button {
- 	background-color: rgba(42, 42, 119, 0.74);
+  background-color: rgba(42, 42, 119, 0.74);
 }
 
 .version {
- 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
- 	font-size: 12px;
- 	color: #666;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: #666;
 }
 
 .read-comment {
- 	display: flex;
- 	width: 600px;
- 	justify-content: space-between;
- 	margin-left: 400px;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-left: 400px;
 }
 
 .read-comment button {
- 	background-color: #567b95;
- 	color: white;
- 	border: none;
- 	border-radius: 4px;
- 	padding: 11px 12px 8px;
- 	margin-bottom: 10px;
- 	width: 300px;
+  background-color: #567b95;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 12px 8px;
+  margin-bottom: 10px;
+  width: 300px;
 }
 
 .read-icon-cont {
- 	display: flex;
- 	width: 300px;
- 	justify-content: space-evenly;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
 }
 
 .footer-divider {
@@ -333,17 +337,17 @@ button {
 }
 
 .footer-parent {
- 	display: flex;
- 	justify-content: space-between;
- 	color: #333;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
   width: 1220px;
   margin: 20px auto;
-  border-bottom: 1px solid #ddd;
+ border-bottom: 1px solid #ddd;
 }
 
 .footer-parent h2 {
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  f ont-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
 }
 .sub-subscribe {
@@ -356,28 +360,23 @@ button {
 }
 
 .footer-parent ul li {
-	list-style: none;
-	text-decoration: none;
-	color: #121212;
+  list-style: none;
+  text-decoration: none;
+  color: #121212;
   margin-bottom: 7px;
-
-}
-
-.footer-parent ul li a{
-  font-size: 14px;
 }
 
 .footer-top {
   width: 1220px;
   margin: 0 auto;
- 	display: flex;
- 	justify-content: space-between;
- 	color: #567b95;
- 	font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #567b95;
+  font-size: 12px;
 }
 
 .footer-sub {
- 	border-left: solid rgb(226, 226, 226) 1px;
+  border-left: solid rgb(226, 226, 226) 1px;
   padding: 8px;
 }
 
@@ -387,5 +386,3 @@ button {
   display: flex;
   justify-content: space-between;
 }
-
-
