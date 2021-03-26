@@ -382,17 +382,13 @@ button {
   justify-content: space-between;
 }
 
-/* body{
-  background-color:rgb(214, 214, 235);
-  font-size: 20px;  
-} */
 form {
   width: 300px;
   margin-left: 24%;
   justify-content: center;
 }
 
-input{
+input {
   width: 300%;
 }
 
@@ -402,7 +398,7 @@ textarea {
   font-size: 20px;
 }
 
-  input,textarea {
+input,textarea {
   outline: none;
   border: 1px solid #ddd;
   font-size: 20px;
@@ -420,13 +416,14 @@ textarea {
   height: 30px;
   font-size: 20px;
 }
+
 label {
-  font-family:'Della Respira', serif;
+  font-family: 'Della Respira',  serif;
 }
 
 .btn {
-  background-color:#567b95;
-  color:white;
+  background-color: #567b95;
+  color: white;
   border-radius: 5px;
   width: 300px;
   height: 60px;
