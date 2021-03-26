@@ -1,29 +1,39 @@
 body{
-    background-color: rgb(199, 201, 195)
+    background-color: goldenrod;
+    font-size: 20px;  
+}
+form {
+  width: 300px;
+}
+
+input{
+  width: 300%;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 200px;
+  font-size: 20px;
+}
+
+input,textarea {
+  outline: none;
+  border: 1px solid #ddd;
 }
 
 #username {
   border-radius: 5px;
-  width: 200px;
   height: 30px;
+  font-size: 20px;
 }
 
 #email {
   border-radius: 5px;
-  margin-left: 25px;
-  width: 200px;
   height: 30px;
+  font-size: 20px;
 }
 label {
     font-family:'Della Respira', serif;
-}
-
-#area{
-  
-}
-
-.allform{
-    margin-left: 30%;
 }
 
 .btn{
