@@ -14,7 +14,6 @@ This project is built with html and css only, leveraging mostly on flex,fload an
 This project is built with:
 - HTML 
 - CSS
-
 ## Live Demo
 
 [Live Demo Link](https://fortuneonyeka.github.io/week1project2-New-york-Times/)
