@@ -398,7 +398,8 @@ textarea {
   font-size: 20px;
 }
 
-input,textarea {
+input,
+textarea {
   outline: none;
   border: 1px solid #ddd;
   font-size: 20px;
@@ -418,7 +419,7 @@ input,textarea {
 }
 
 label {
-  font-family: 'Della Respira',  serif;
+  font-family: 'Della Respira', serif;
 }
 
 .btn {
