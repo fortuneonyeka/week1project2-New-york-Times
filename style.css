@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.active {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 14.25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-bottom a {
+  font-size: 11px;
+}
+
+.footer-parent ul li a {
+  font-size: 14px;
+}
+
+.flexx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  background-color: #fff;
+}
+
+.flexx .lefty {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexx .righty {
+  width: 16%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexx .righty a {
+  background-color: #567b95;
+  color: white;
+  border-radius: 4px;
+  padding: 0 12px;
+  height: 32px;
+  text-align: center;
+}
+
+.flexx .righty a .btn1 {
+  width: 119px;
+}
+
+.parent-nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-border1 {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.showcase-text-cont {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: 400px;
+  width: 600px;
+}
+
+.ripple {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.showcase-text-cont .divider {
+  width: 600px;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.icon-cont {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 285px;
+}
+
+.bydenis {
+  margin-left: 35%;
+}
+
+#free-articles {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50%;
+  text-align: center;
+}
+
+.advert {
+  background-color: antiquewhite;
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.bar1 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+iframe {
+  align-items: center;
+  margin-left: 29%;
+  margin-top: 60px;
+}
+
+.if-fig {
+  margin-left: 29%;
+  font-size: 14px;
+  color: #666;
+  width: 560px;
+}
+
+.jumbo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.jumbo-fig {
+  width: 60%;
+  text-align: justify;
+  font-style: italic;
+  font-size: large;
+  text-indent: 0;
+  margin-left: 22%;
+  padding: 0.5em;
+}
+
+.content-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 500px;
+  font-size: larger;
+}
+
+.content-paragraph {
+  margin: 20%;
+  font-size: larger;
+}
+
+.inflation-cont {
+  margin-left: 342.5px;
+  width: 945px;
+}
+
+.inflation-cont h2 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+.inflation-cont p {
+  font-size: 14px;
+  color: #666;
+}
+
+.theoryof-inflations {
+  background-image: url(images/inflation-945.png);
+  position: relative;
+  width: 900px;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.theoryof-inflations p {
+  font-size: 13px;
+}
+
+.row1 {
+  position: absolute;
+  top: 370px;
+}
+
+.row2 {
+  position: absolute;
+  top: 630px;
+}
+
+.by-larry {
+  margin-left: 342.5px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.by-larry .line {
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 24px;
+}
+
+.by-larry > p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.by-larry .cont {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.by-larry .cont > p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.flex-box-new-york {
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font-style: oblique;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+  margin-right: 10%;
+}
+
+.cosmo {
+  width: 600px;
+  height: 400px;
+  margin-left: 29%;
+}
+
+.span-fig {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 8px;
+  margin-left: 29%;
+  margin-top: 5px;
+  color: #666;
+}
+
+.cosmo-fig {
+  margin-left: 29%;
+  width: 600px;
+  color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.special {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: rgba(42, 42, 119, 0.74);
+}
+
+.version {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+
+.read-comment {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-left: 400px;
+}
+
+.read-comment button {
+  background-color: #567b95;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 12px 8px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.read-icon-cont {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.footer-divider {
+  width: 1220px;
+  height: 1px;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  margin: 20px auto;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  width: 1220px;
+  margin: 20px auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-parent h2 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.sub-subscribe {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.footer-parent ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #121212;
+  margin-bottom: 7px;
+}
+
+.footer-top {
+  width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #567b95;
+  font-size: 12px;
+}
+
+.footer-sub {
+  border-left: solid rgb(226, 226, 226) 1px;
+  padding: 8px;
+}
+
+.footer-bottom {
+  width: 1220px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
