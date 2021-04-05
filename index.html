@@ -627,9 +627,37 @@
 			<div></div>
 
 			<div></div>
+			<div class="allform">
+				<form action="get">
+
+					<label for="username">Username:</label>
+					<input type="text" name="name" id="username" placeholder="Enter username" required  maxlength="20">
+
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" placeholder="Enter your Email here" required maxlength="20">
+
+					<textarea name="area" id="area" cols="30" rows="10" placeholder="Type your comment here…" required maxlength="250"></textarea>
+					<p> What is your overall opinion about this article:</p>
+
+					<label for="position"> Positive:</label> <input type="radio" name="radio" value="Positive" id="position">
+
+					<label for="negative"> Negative:</label>
+					<input type="radio" name="radio" value="Negative" id="negative">
+
+					<label for="nut"> Neutra:</label>
+					<input type="radio" name="radio" value="neutra" id="nut"> 
+
+					<label for="check">I want to subscribe to the newsletter
+						<input type="checkbox" id="check" name="sub" value="subscribe" required>
+					</label>
+					<button type="submit" name="submit" class="btn" value="send">Send</button>
+				</form>
+		
+			</div>
 			<div class="read-comment">
 				<button class="read" type="button">READ 615 COMMENTS</button>
 				<div class="read-icon-cont">
+					
 					<div class="facebook-icon">
 						<a href=""
 							><svg
